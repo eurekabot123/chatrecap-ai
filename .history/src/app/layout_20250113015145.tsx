@@ -7,12 +7,8 @@ import Footer from '@/components/layout/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ChatRecap AI | Decode Hidden Signals in Your Messages',
-  description: 'Understand the true meaning behind every message. Get instant AI-powered insights about your relationship dynamics and communication patterns.',
-  metadataBase: new URL('https://www.chatrecap-ai.com'),
-  alternates: {
-    canonical: '/',
-  },
+  title: 'ChatRecap AI - Discover the True Meaning Behind Every Message',
+  description: 'Upload your chat history and get AI-powered insights in seconds',
 }
 
 export default function RootLayout({
@@ -21,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="zh">
       <body className={inter.className}>
         <Navbar />
         {children}

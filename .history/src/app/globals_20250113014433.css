@@ -19,12 +19,3 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-h1 {
-  text-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.gradient-text {
-  background-clip: text;
-  -webkit-background-clip: text;
-}

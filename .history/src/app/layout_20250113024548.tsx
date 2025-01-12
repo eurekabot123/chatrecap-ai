@@ -9,10 +9,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'ChatRecap AI | Decode Hidden Signals in Your Messages',
   description: 'Understand the true meaning behind every message. Get instant AI-powered insights about your relationship dynamics and communication patterns.',
-  metadataBase: new URL('https://www.chatrecap-ai.com'),
-  alternates: {
-    canonical: '/',
-  },
 }
 
 export default function RootLayout({
